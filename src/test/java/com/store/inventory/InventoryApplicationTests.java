@@ -1,10 +1,10 @@
-package com.store.inventary;
+package com.store.inventory;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class InventaryApplicationTests {
+class InventoryApplicationTests {
 
 	@Test
 	void contextLoads() {
