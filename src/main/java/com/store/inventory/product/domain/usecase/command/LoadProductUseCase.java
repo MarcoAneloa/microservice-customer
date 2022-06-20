@@ -14,7 +14,7 @@ public class LoadProductUseCase {
     private final ProductRepository productApiRestRepository;
     private final ProductDataBaseRepository productDataBaseRepository;
 
-    public LoadProductUseCase(ProductApiRest productApiRestRepository, ProductDataBaseRepository productDataBaseRepository) {
+    public LoadProductUseCase(ProductRepository productApiRestRepository, ProductDataBaseRepository productDataBaseRepository) {
         this.productApiRestRepository = productApiRestRepository;
         this.productDataBaseRepository = productDataBaseRepository;
     }
